@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6b80e59a8c9a949924446310368911, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  Name: Wood
+  Description: "A wood stick is just a tree\u2019s way of saying \u2018good luck,
+    sucker.\u2019 Great for burning, building, and bonking."
+  ItemType: 0
+  Icon: {fileID: 21300000, guid: e232efa096f10134a91bdf0ff689e302, type: 3}
+  maxStackSize: 50

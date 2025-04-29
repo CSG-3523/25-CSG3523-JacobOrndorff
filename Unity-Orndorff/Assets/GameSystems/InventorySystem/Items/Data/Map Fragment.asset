@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a6b80e59a8c9a949924446310368911, type: 3}
+  m_Name: Map Fragment
+  m_EditorClassIdentifier: 
+  Name: Map Fragment
+  Description: "One piece of the paper puzzle. It definitely doesn\u2019t lead to
+    certain doom."
+  ItemType: 4
+  Icon: {fileID: -791926768, guid: a03e9228371be9449a97a937850924ca, type: 3}
+  MaxStackSize: 0

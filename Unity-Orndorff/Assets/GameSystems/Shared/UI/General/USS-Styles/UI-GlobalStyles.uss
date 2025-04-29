@@ -1,0 +1,192 @@
+#Header {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    align-self: center;
+    align-content: center;
+    background-color: rgb(153, 135, 99);
+    width: auto;
+    position: relative;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    max-width: none;
+    max-height: 20%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    min-width: 100%;
+    min-height: 10%;
+    flex-direction: row;
+    -unity-text-align: upper-left;
+}
+
+.title {
+    -unity-font-definition: url("project://database/Assets/UI/General/Fonts/Bangers-Regular.ttf?fileID=12800000&guid=8215057c3a097ff43876925685ce86b2&type=3#Bangers-Regular");
+    font-size: 60px;
+    color: rgb(255, 224, 117);
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 60px 10px rgba(30, 26, 24, 0.59);
+    -unity-text-outline-color: rgb(113, 106, 93);
+    -unity-text-outline-width: 2px;
+    -unity-font-style: bold;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    text-overflow: clip;
+    white-space: nowrap;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    min-width: 30%;
+    min-height: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.button:hover {
+    background-color: rgb(128, 112, 83);
+    color: rgb(255, 224, 117);
+    border-left-color: rgb(91, 84, 71);
+    border-right-color: rgb(91, 84, 71);
+    border-top-color: rgb(91, 84, 71);
+    border-bottom-color: rgb(91, 84, 71);
+    font-size: 30px;
+}
+
+.button {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: rgb(255, 224, 117);
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Black');
+    font-size: 30px;
+    width: 80%;
+    align-self: center;
+    color: rgb(51, 47, 41);
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    letter-spacing: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: rgb(153, 135, 99);
+    border-right-color: rgb(153, 135, 99);
+    border-top-color: rgb(153, 135, 99);
+    border-bottom-color: rgb(153, 135, 99);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgb(51, 47, 41);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    flex-basis: auto;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    align-content: center;
+    height: 10%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    max-height: 15%;
+    min-width: 30%;
+    min-height: 5%;
+}
+
+#Footer {
+    align-items: auto;
+    justify-content: space-around;
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Bold');
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(153, 134, 99);
+    width: 100%;
+    height: 15%;
+    align-self: center;
+    align-content: auto;
+    -unity-text-align: upper-center;
+    position: relative;
+    bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#MainContainer {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(208, 183, 135);
+    border-left-color: rgb(91, 84, 71);
+    border-right-color: rgb(91, 84, 71);
+    border-top-color: rgb(91, 84, 71);
+    border-bottom-color: rgb(91, 84, 71);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 10%;
+    min-height: 20%;
+    opacity: 1;
+    overflow: visible;
+    text-overflow: clip;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.note {
+    -unity-font-definition: resource('FlatSkin/Font/Roboto-Black');
+    -unity-text-align: upper-center;
+    flex-grow: 1;
+    font-size: 20px;
+}
